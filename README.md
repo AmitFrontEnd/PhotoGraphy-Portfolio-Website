@@ -1,16 +1,158 @@
-# React + Vite
+# 📸 Zoomin Photography Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive photography portfolio website built using **React, Vite, Tailwind CSS, and shadcn/ui**. This project showcases services, portfolio, pricing plans, testimonials, and a contact system with a clean and professional UI.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* 🎨 Modern UI with Tailwind CSS & shadcn components
+* 📱 Fully responsive design
+* 🌙 Light / Dark mode support
+* 🖼️ Masonry-style portfolio gallery
+* 🔍 Image lightbox preview
+* 📊 Animated counter (stats section)
+* 💬 Testimonials slider
+* 💼 Services section with reusable cards
+* 💰 Pricing plans
+* 📩 Contact form
+* ⚠️ Custom 404 Error page
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React (Vite)**
+* **Tailwind CSS**
+* **shadcn/ui**
+* **Lucide Icons**
+* **react-countup**
+* **react-intersection-observer**
+* **react-masonry-css**
+* **yet-another-react-lightbox**
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+│   ├── HeroSection.jsx
+│   ├── ServicesCard.jsx
+│   ├── PortfolioGallery.jsx
+│   ├── CounterSection.jsx
+│   ├── ContactForm.jsx
+│   └── ui/ (shadcn components)
+│
+├── data/
+│   ├── services.js
+│   └── portfolio.js
+│
+├── pages/
+│   ├── Home.jsx
+│   ├── Portfolio.jsx
+│   ├── Contact.jsx
+│   └── Error.jsx
+│
+└── App.jsx
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/zoomin-photography.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## ✨ Key Components
+
+### 🔹 HeroSection
+
+Reusable component with:
+
+* Dynamic title & description
+* Custom background image
+* Adjustable height
+* Optional buttons
+
+---
+
+### 🔹 Portfolio Gallery
+
+* Masonry layout
+* Hover overlay with icon
+* Lightbox preview on click
+
+---
+
+### 🔹 Counter Section
+
+* Parallax background
+* Animated stats on scroll
+
+---
+
+### 🔹 Services Card
+
+Reusable card component for services section.
+
+---
+
+### 🔹 Contact Form
+
+Built using shadcn UI components with clean layout.
+
+---
+
+## 🎯 Customization
+
+You can easily customize:
+
+* Images → `data/portfolio.js`
+* Services → `data/services.js`
+* Text content → props in components
+* Theme → Tailwind + Theme Provider
+
+---
+
+## 📌 Future Improvements
+
+* Backend integration (form submission)
+* Authentication (admin panel)
+* Image upload system
+* Blog section
+
+---
+
+## 👨‍💻 Author
+
+Developed with ❤️ using React & Tailwind.
+
+---
+
+## 📄 License
+
+This project is open-source and free to use.
+
+---
+
+⭐ If you like this project, don't forget to give it a star!

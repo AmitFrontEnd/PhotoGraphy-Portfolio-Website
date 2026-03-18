@@ -3,6 +3,11 @@
 A modern and responsive photography portfolio website built using **React, Vite, Tailwind CSS, and shadcn/ui**. This project showcases services, portfolio, pricing plans, testimonials, and a contact system with a clean and professional UI.
 
 ---
+🌐 Live Demo
+
+🚀 https://capturedbyamit.vercel.app/
+
+Deployed on Vercel for fast and reliable performance.
 
 ## 🚀 Features
 
